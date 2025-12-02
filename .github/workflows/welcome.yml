@@ -4,5 +4,7 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
-[!NOTE]
-This is an incomplete workflow file. It is normal if you receive an error message. One step at a time! 😎
+jobs:
+  welcome:
+    name: Post welcome comment
+    runs-on: ubuntu-latest
